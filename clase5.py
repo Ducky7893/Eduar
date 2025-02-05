@@ -8,7 +8,7 @@ print(Usuario)
 if(nombre != "x"):
      Usuario.append(nombre)
 """""
-
+""""
 while True:
     nombre=input("digite el nombre o x: ")
 
@@ -18,3 +18,22 @@ while True:
     Usuario.append(nombre)
 
 print("usuarios registrados: ", Usuario)
+
+
+"""
+
+frutas = tuple(("fresa", "manzana", "papaya", "manzana"))
+print(frutas)
+frutas2 = ("fresa", "manzana", "papaya", "manzana")
+print(frutas2)
+print(frutas.count("manzana"))
+print(frutas.index("manzana"))
+
+temporal = list(frutas)
+
+temporal.append("mango")
+
+frutas = tuple(temporal)
+
+
+print(temporal)
